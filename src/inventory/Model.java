@@ -17,30 +17,7 @@ public class Model {
 			{
 				
 				//The single main window
-				InventoryWindow window = new InventoryWindow("GUI Test");
-				
-				/**
-				 * Default Inventory Items
-				 * THESE ARE FOR TESTING PURPOSES ONLY
-				 */
-				
-				ItemStack burgers = new ItemStack(new Item("Burger"));
-				ItemStack fries   = new ItemStack(new Item("Fries"));
-				inventory.add(burgers);
-				inventory.add(fries);
-				
-				
-				/*Item burger = new Item("Burger");
-				Item fries  = new Item("Fries");
-				inventory.add(burger);
-				inventory.add(fries);*/
-				
-				
-				
-				/**
-				 * End default Inventory Items
-				 */
-				
+				InventoryWindow window = new InventoryWindow("GUI Test");				
 				window.openInventoryWindow(inventory);
 				
 				/*
